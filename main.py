@@ -9,4 +9,4 @@ app = create_app()
 if __name__ == '__main__': #if file is ran, not when it is imported, then the website gets ran 
     app.run(debug=True, host='0.0.0.0') #anytime a change is done to the code, then the website get rerun (turn off for prod good for dev)
 
-    connection.close()
+    connection.close() #ok
